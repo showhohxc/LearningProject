@@ -11,6 +11,34 @@ int 형 변수 m_nData_1, m_nData_2는 프로그램 구동시 int형 함수 main
 ex)
 int m_nData_1 = 0;  // 데이터 영역에 할당
 int m_nData_2 = 1;  // 데이터 영역에 할당
+
 ![img1 daumcdn](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Flcew1%2FbtrFdGBx4JL%2FKHb1rB2FUkkRxD3tceqgIK%2Fimg.png)
 
 ### Stack Area
+스택 영역에 저장되는 변수는 함수 호출시에 생성이 되며, 함수 호출이 완료되면 사라지게 됩니다. 변수 m_nData_1, m_nData_2는 데이터 영역에 저장되며 
+main 메서드안에 존재하는 int nNum, void ProcMethod_1 메서드 안에 있는변수nIndex_1, nNum1 그리고 void ProcMethod_2 메서드 안에 존재하는 변수 nIndex_2, nNum2가 
+스택영역에 저장된다. 스택이라는 이름과 같이 데이터를 건초더미처럼 쌓아 올려놓는 역할을 하게 됩니다.
+
+ex)
+int m_nData_1 = 0;  // 데이터 영역에 할당
+int m_nData_2 = 1;  // 데이터 영역에 할당
+
+int main() 
+{
+    int nNum = 3;    // 지역변수 nNum이 스택 영역에 할당
+    
+    ProcMethod_1(nNum);
+    ProcMethod_2(nNum);
+}
+
+void ProcMethod_1(int nIndex_1)
+{
+    int nNum1 = 4;    // 매개변수 nIndex_1과 지역변수 nNum1가 스택영역에 할당
+}
+
+void ProcMethod_2(int nIndex_2)
+{
+    int nNum2 = 5;    // 매개변수 nIndex_2과 지역변수 nNum2가 스택영역에 할당
+}
+
+![img1 daumcdn](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJPav8%2FbtrFe3DehqQ%2FW9aJ0OsOkSYI7VArJkZRgK%2Fimg.png)
