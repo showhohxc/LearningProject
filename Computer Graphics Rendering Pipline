@@ -2,6 +2,7 @@
 이 과정은 3차원으로 만들어진 모델을 2차원에 투영하는 Rendering Process를 자세하게 표현한것이다.
 컴퓨터에 데이터로 존재하는 3D 리소스가 모니터에 출력되는 과정이 Rendering Pipline을 따르게 된다.
 
+![image](https://user-images.githubusercontent.com/98040028/168963864-9da28e3b-b259-4bf0-b9bb-5c51c129ee9b.png)
 ![image](https://velog.velcdn.com/images/cedongne/post/102ae712-af4c-49f6-a181-af115b4d6def/image.png)
 
 위의 과정을 따라 화면에 도형을 표시할 수 있으며, 주황색 박스의 과정은 조작이 가능한 (Programmable) 단계이다.
