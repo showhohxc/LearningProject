@@ -17,3 +17,33 @@
 
 ## Baedi(Coach) Class
 ![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1)
+
+베디(코치)는 Crew들의 리스트를 가지고 있고, 세가지의 기능을 가지고 있다. eatFood / RunWay / Upgrade 그리고 인터페이스에 정의된 대로 3개의 함수를 구현한다.
+주목할 것은 NotifyCrew 메소드를 각 기능에서 호출하는 것이다. 그리고 Crew들에게 한 명씩 업데이트 메소드를 호출한다.
+
+### 티버(크루)는 베디(코치)의 알림을 받고 싶어서 구독을 하고 싶어한다.
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/8521348f-d56d-491f-ac9d-28f6098ed204)
+
+### 다른 Crew의 멤버 르윈 / 제이도 마찬가지이다. 
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/053edc05-9b61-40e9-98ab-4a1963ace50b)
+
+## For Example
+
+## Main Method
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/1017f2a4-7b9f-415c-ba5e-d1a647b86359)
+
+Coach인 베디에게 3명의 Crew들이 구독을 하였다. 그리고 Upgrade() 메소드를 호출한다. 그렇게 되면 구독한 3명의 크루객체들에게 메시지가 전달된다.
+
+베디코치가 귀여움을 강화했다
+Lewin 수신 : 나 더 귀여워 졌따
+Tiber 수신 : 나 더 귀여워 졌따
+Jay 수신 : 나 더 귀여워 졌따
+
+이에 Lewin은 구독을 해지한다.
+
+baedi.unsubscribe(lewin);
+baedi.eatFood();
+
+베디코치가 밥을 먹는다
+Tiber 수신 : 나 밥 먹었따
+Jay 수신 : 나 밥 먹었따
