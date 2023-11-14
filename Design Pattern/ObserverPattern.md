@@ -7,5 +7,13 @@
 ![image](https://github.com/showhohxc/LearningStudy/assets/98040028/5c920923-c8ce-4828-826f-16962ce2eb6c)
 베디라는 객체는 코치이다. (코치 인터페이스를 구현해야 한다)
 코치(코치 인터페이스)의 기능은 크루들을 등록한다, 크루들을 등록 해제한다, 크루들에게 행동을 알린다. 아주 간단하게 이 세가지의 기능을 가지고 있다.
-#### 코치는 모든 크루들에게 정보를 알려야 한다.
-#### 크루 인터페이스의 기능은 자신의 상태를 업데이트하는 기능을 가진다.
+### 코치는 모든 크루들에게 정보를 알려야 한다.
+### 크루 인터페이스의 기능은 자신의 상태를 업데이트하는 기능을 가진다.
+
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/c7ada712-26ce-4372-aff2-f2f7face4dce)
+## Coach Interface
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/4b3d6a33-9aa9-4386-b95b-8ea574fa2923)
+## Crew Interface
+
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1)
+## Baedi(Coach) Class
