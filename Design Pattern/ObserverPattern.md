@@ -33,17 +33,29 @@
 ![image](https://github.com/showhohxc/LearningStudy/assets/98040028/1017f2a4-7b9f-415c-ba5e-d1a647b86359)
 
 Coach인 베디에게 3명의 Crew들이 구독을 하였다. 그리고 Upgrade() 메소드를 호출한다. 그렇게 되면 구독한 3명의 크루객체들에게 메시지가 전달된다.
-
+```
 베디코치가 귀여움을 강화했다
 Lewin 수신 : 나 더 귀여워 졌따
 Tiber 수신 : 나 더 귀여워 졌따
 Jay 수신 : 나 더 귀여워 졌따
+```
 
 이에 Lewin은 구독을 해지한다.
 
+```
 baedi.unsubscribe(lewin);
 baedi.eatFood();
 
 베디코치가 밥을 먹는다
 Tiber 수신 : 나 밥 먹었따
 Jay 수신 : 나 밥 먹었따
+```
+
+Lewin은 알림 대상에서 제외되고
+이로써 객체의 상태가 변화할때 연관된 객체들에게 알림을 보낼수 있게 된다. 이것이 Observer Pattern 이다.
+Crew Interface == Observer Interface
+Coach Interface == Observable Interface
+Observable은 발행자가 되고 Observer는 구독자가 된다.
+
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/dab3306e-f828-48bf-b7bc-c325a1acdf1f)
+
