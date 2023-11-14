@@ -16,4 +16,4 @@
 ![image](https://github.com/showhohxc/LearningStudy/assets/98040028/4b3d6a33-9aa9-4386-b95b-8ea574fa2923)
 
 ## Baedi(Coach) Class
-![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1){: width="50" height="50"}
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1)
