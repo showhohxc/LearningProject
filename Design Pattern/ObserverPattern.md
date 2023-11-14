@@ -10,10 +10,12 @@
 ### 코치는 모든 크루들에게 정보를 알려야 한다.
 ### 크루 인터페이스의 기능은 자신의 상태를 업데이트하는 기능을 가진다.
 
-![image](https://github.com/showhohxc/LearningStudy/assets/98040028/c7ada712-26ce-4372-aff2-f2f7face4dce)
 ## Coach Interface
-![image](https://github.com/showhohxc/LearningStudy/assets/98040028/4b3d6a33-9aa9-4386-b95b-8ea574fa2923)
-## Crew Interface
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/c7ada712-26ce-4372-aff2-f2f7face4dce)
 
-![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1)
+## Crew Interface
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/4b3d6a33-9aa9-4386-b95b-8ea574fa2923)
+
 ## Baedi(Coach) Class
+![image](https://github.com/showhohxc/LearningStudy/assets/98040028/43f07494-0141-4837-abab-61a8a94c19f1)
+
